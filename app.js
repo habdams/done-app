@@ -1,14 +1,17 @@
+require('dotenv').config();
 const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
 const Note = require('./model/note')
 
-const dbURI = 'mongodb+srv://teejay:admin-94@doneapp-db.839pr0y.mongodb.net/notes?retryWrites=true&w=majority'
 
-mongoose.connect(dbURI)
+const DB_URI = process.env.DBURI
+const PORT = process.env.PORT
+
+mongoose.connect(DB_URI)
 .then((result) => {
     console.log("connected to db");
-    app.listen(3001)  
+    app.listen(PORT)  
 })
 .catch((err) => {
     console.log(err);
