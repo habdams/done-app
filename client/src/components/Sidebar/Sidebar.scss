@@ -1,0 +1,21 @@
+.sidebar {
+  background: hsla(227, 39%, 21%, 1);
+  padding: 1.25rem 1.8rem;
+  color: white;
+  max-width: 223px;
+
+  &-logo {
+    margin-bottom: 5rem;
+  }
+
+  &-sub {
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+  }
+
+  &-point {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}

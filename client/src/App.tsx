@@ -1,9 +1,15 @@
 import React from "react";
 
+import { Sidebar } from "./components/Sidebar/Sidebar";
+import "./App.scss";
+
 export default function App() {
   return (
-    <>
-      <h1>DONE</h1>
-    </>
+    <section className="main">
+      <section className="sidebar">
+        <Sidebar />
+      </section>
+      <section className="main"> Main </section>
+    </section>
   );
 }
