@@ -11,12 +11,12 @@ export function Sidebar() {
       <p className="sidebar-sub">Track how much you do in a day</p>
 
       <span className="sidebar-point">
-        <CheckSquare />
+        <CheckSquare weight="bold" size={24} />
         <p> Record little wins </p>
       </span>
 
       <span className="sidebar-point">
-        <CheckSquare />
+        <CheckSquare weight="bold" size={24} />
         <p> Be productive </p>
       </span>
     </section>
