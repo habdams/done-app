@@ -1,6 +1,9 @@
 @import "../../style/common";
+
 .sidebar {
   background: $primary-color;
+  display: flex;
+  flex-direction: column;
   padding: 1.25rem 1rem;
   color: white;
   max-width: 223px;
