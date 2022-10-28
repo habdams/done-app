@@ -1,5 +1,6 @@
+@import "../../style/common";
 .sidebar {
-  background: hsla(227, 39%, 21%, 1);
+  background: $primary-color;
   padding: 1.25rem 1rem;
   color: white;
   max-width: 223px;
